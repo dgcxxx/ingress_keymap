@@ -1,4 +1,5 @@
 <h1>Listing locations</h1>
+<%= link_to 'New Location', new_location_path %>
 
 <table>
   <tr>
@@ -25,5 +26,4 @@
 
 <br />
 
-<%= link_to 'New Location', new_location_path %>
 <%= gmaps4rails(@json) %>
